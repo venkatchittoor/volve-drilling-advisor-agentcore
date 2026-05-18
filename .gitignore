@@ -1,0 +1,40 @@
+# Environment & credentials
+.env
+.env.local
+.env.*
+*.pem
+*.key
+credentials
+aws_credentials
+
+# AWS
+.aws/
+
+# AgentCore local config (contains account/region targets)
+agentcore/.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# uv
+.uv/
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# CDK outputs (auto-generated, may contain account info)
+agentcore/cdk/cdk.out/
+agentcore/cdk/.cdk.staging/
